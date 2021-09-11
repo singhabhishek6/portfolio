@@ -105,19 +105,19 @@ function App() {
             <Route path="/" exact>
               <HomePage />
             </Route>
-            <Route exact path="/about" exact>
+            <Route exact path="/about">
               <AboutPage />
             </Route>
-            <Route path="/resume" exact>
+            <Route path="/resume">
               <ResumePage />
             </Route>
-            <Route path="/portfolios" exact>
+            <Route path="/portfolios">
               <PortfoliosPage />
             </Route>
-            <Route path="/blogs" exact>
+            <Route path="/blogs">
                <BlogsPage />
             </Route>
-            <Route path="/contact" exact>
+            <Route path="/contact">
               <ContactPage />
             </Route>
           </Switching>
