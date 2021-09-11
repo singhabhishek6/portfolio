@@ -100,8 +100,8 @@ function App() {
             <div className="line-3"></div>
             <div className="line-4"></div>
           </div>
-      
-          <Switching >
+          <AnimatePresence>
+          <Switching location={location} key={location.key}>
             <Route path="/" exact>
               <HomePage />
             </Route>
@@ -121,6 +121,7 @@ function App() {
               <ContactPage />
             </Route>
           </Switching>
+         </AnimatePresence>
 
         </MainContentStyled>
     </div>
