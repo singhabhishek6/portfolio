@@ -25,7 +25,6 @@ function HomePage() {
     init(info.current, {
       showCursor: false,
       backSpeed:  50,
-      backSpeed:100,
       startDelay: 500,
       backDelay:800,
       strings: ["A Web Developer", "A Problem Solver"],

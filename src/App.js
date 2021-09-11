@@ -39,11 +39,11 @@ function App() {
     }
     else{
       if(temp[0] === 'light-theme'){
-        setTheme('dark-theme'+" " +temp[1]);
+        setTheme("dark-theme" + " " +temp[1]);
         setChecked(false)
       }
       else{
-        setTheme('light-theme'+ " " + temp[1]);
+        setTheme("light-theme" + " " + temp[1]);
         setChecked(true)
       }
     }
