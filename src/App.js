@@ -101,7 +101,7 @@ function App() {
             <div className="line-4"></div>
           </div>
           <AnimatePresence>
-          <Switching location={location} key={location.key} >
+          <Switching >
             <Route path="/" exact>
               <HomePage />
             </Route>
