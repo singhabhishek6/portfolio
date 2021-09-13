@@ -1,5 +1,5 @@
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useEffect } from "react";
 import Sidebar from "./Components/Sidebar";
 import styled from 'styled-components';
@@ -19,7 +19,10 @@ import "./App.css"
 function App() {
   const [theme, setTheme] = useState('dark-theme');
   const [checked, setChecked] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [loadi, setLoadi] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
+  const preload = useRef()
   const location = useLocation()
   useEffect(()=>{
     document.documentElement.className = theme;
@@ -48,10 +51,23 @@ function App() {
       }
     }
   }
-
+  window.addEventListener("load",()=>{
+    setTimeout(() => {
+     setLoadi(true)
+     setTimeout(() => {
+      setLoading(false)
+     }, 1500);
+    }, 1000);
+  })
   return (
     <>
-   <div className="colors">
+   {loading && <div  className={`containerr ${loadi&&"hide"}`}>
+      <div class="loader">
+        <span></span>
+      </div>
+    </div>
+   }
+   {loading?null:<> <div className="colors">
       <span onClick={()=>{
         setTheme(`${theme.split(" ")[0]} green-theme`)
       }}></span>
@@ -124,7 +140,7 @@ function App() {
          </AnimatePresence>
 
         </MainContentStyled>
-    </div>
+    </div></>}
     </>
   );
 }

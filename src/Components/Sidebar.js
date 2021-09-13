@@ -15,6 +15,7 @@ const SidebarStyled = styled.div`
     position: fixed;
     height: 100vh;
     z-index: 20;
+    transition: 1500ms ease-in-out;
     background-color: var(--sidebar-dark-color);
     overflow: hidden;
     transition: all .4s ease-in-out;

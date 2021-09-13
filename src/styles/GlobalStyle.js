@@ -96,7 +96,9 @@ a{
     font-size: inherit;
     font-size: 1rem;
 }
-
+.App{
+    transition: 1500ms ease-ease-in-out;
+}
 h1{
     font-size: 4rem;
     color: var(--white-color);
@@ -201,8 +203,6 @@ h6{
         display: block;
     }
   }
-
-
 //Global Media Queries
 
 

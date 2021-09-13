@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { InnerLayout } from "../styles/Layouts";
 import Title from "../Components/Title";
 import ServiceCard from "../Components/ServiceCard";
-import "../App.css";
 function ServicesSection() {
   return (
     <InnerLayout>
