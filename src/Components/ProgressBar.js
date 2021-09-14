@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-
+import "../App.css"
 function ProgressBar({ title, width, text }) {
     return (
         <ProgressBarStyled>
@@ -8,7 +8,7 @@ function ProgressBar({ title, width, text }) {
             <div className="progress-bar">
                 <p>{text}</p>
                 <div className="progress">
-                      <span style={{width:width}}></span>
+                      <span className={`c${width}`} ></span>
                 </div>
             </div>
         </ProgressBarStyled>
@@ -33,7 +33,9 @@ const ProgressBarStyled = styled.div`
             bottom: 10px;
             height: 100%;
             background-color: var(--primary-color)
+           
         }
+      
     }
 }
 `;
