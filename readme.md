@@ -1,82 +1,57 @@
-# ![WebApp](relative/src/img/Readme/portfolio/port(1).png?raw=true)
-# WebApp
+# [ Abhishek | PortFolio](https://abhishek001-portfolio.netlify.app/)
+
 <table>
 <tr>
 <td>
-  A webapp using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+ My portfolio will showcase all of my works and skills at one place. You can also contact me via my portfolio.
+  I've added the code to GitHub, so that prospective employers, clients and colleagues can have a snoop around my code.
 </td>
 </tr>
 </table>
 
 
 ## Demo
-Here is a working live demo :  https://iharsh234.github.io/WebApp/
+Here is a working live demo :  [Click Me](https://abhishek001-portfolio.netlify.app/)
 
 
 ## Site
 
-### Landing Page
-Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
+### Home Page
 
-![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
+![](https://github.com/singhabhishek6/portfolio/blob/master/src/img/Readme/portfolio/port%20(1).png)
 
-### Query Filled Form
-![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
 
-### Charts
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart1.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart2.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart3.JPG)
+### Contact Page
+![](https://github.com/singhabhishek6/portfolio/blob/master/src/img/Readme/portfolio/port%20(5).png)
+
 
 
 ## Mobile support
-The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
+My Portfolio is fully compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-![](https://iharsh234.github.io/WebApp/images/demo/mobile.png)
-
-
+![](https://github.com/singhabhishek6/portfolio/blob/master/src/img/Readme/portfolio/port%20(6).png)
 
 
-## [Usage](https://iharsh234.github.io/WebApp/) 
 
-### Development
-Want to contribute? Great!
 
-To fix a bug or enhance an existing module, follow these steps:
+## [Get Started]
 
-- Fork the repo
-- Create a new branch (`git checkout -b improve-feature`)
-- Make the appropriate changes in the files
-- Add changes to reflect the changes made
-- Commit your changes (`git commit -am 'Improve feature'`)
-- Push to the branch (`git push origin improve-feature`)
-- Create a Pull Request 
+### Execution..
+Want to run in your local Machine? Great!
 
-### Bug / Feature Request
+To run, follow these steps:
 
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/iharsh234/WebApp/issues/new) by including your search query and the expected result.
-
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/iharsh234/WebApp/issues/new). Please include sample queries and their corresponding results.
+- Clone my repository (`git clone https://github.com/singhabhishek6/portfolio.git`)
+- Install packages (`npm install`)
+- Run the app (`npm start / yarn start`)
 
 
 ## Built with 
 
-- [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
-- [Google Chart API](https://developers.google.com/chart/interactive/docs/quick_start) - Free , Rich Gallery , Customizable and Cross-browser compatible.
-- [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
+- [React | Function Component](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Material-UI](https://material-ui.com/) - React components for faster and easier web development. Build your own design system, or start with Material Design.
+- [Styled Components](https://styled-components.com/) - Utilising tagged template literals (a recent addition to JavaScript) and the power of CSS, styled-components allows you to write actual CSS code to style your components.
 
 
-## To-do
-- Add BSE (India) Symbol to the current App.
-- Decide comparison models of Stocks. (suggestions are most welcome).
-- Another WebApp, capable of comparing at least 10 stocks.
 
-## Team
-
-[![Harsh Vijay](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/iharsh234)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
----|---
-[Harsh Vijay ](https://github.com/iharsh234) |[Quandl](https://www.quandl.com)
-
-## [License](https://github.com/iharsh234/WebApp/blob/master/LICENSE.md)
-
-MIT © [Harsh Vijay ](https://github.com/iharsh234)
+ © [Abhishek Singh ](https://github.com/singhabhishek6)
