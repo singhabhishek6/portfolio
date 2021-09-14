@@ -34,7 +34,7 @@ My Portfolio is fully compatible with devices of all sizes and all OS's, and con
 
 
 
-## [Get Started]
+## [Getting Started]
 
 ### Execution..
 Want to run in your local Machine? Great!
