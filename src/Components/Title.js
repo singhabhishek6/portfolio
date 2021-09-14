@@ -54,7 +54,7 @@ const TitleStyled = styled.div`
             z-index: -1;
             transform: translateX(1000px);
             animation-delay: -3s;
-            transition: 5s ease-in-out;
+            
             animation: cross 5s forwards;
 
             @keyframes cross{
