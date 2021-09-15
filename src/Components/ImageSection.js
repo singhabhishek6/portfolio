@@ -1,17 +1,30 @@
-import React from "react";
+import { init } from "ityped";
+import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
 import resume from "../img/resume.jpg";
 import PrimaryButton from "./PrimaryButton";
-
+import "../App.css"
 function ImageSection() {
+  const infoo = useRef();
+  useEffect(() => {
+    init(infoo.current, {
+      showCursor: false,
+      backSpeed:  100,
+      startDelay: 500,
+      backDelay:800,
+      strings: ["Abhishek Kumar Singh","A Web Developer", "A Problem Solver"],
+    });
+  },[])
   return (
     <ImageSectionStyled>
       <div className="left-content">
+        <div className="btn">
         <img src={resume} alt="" />
+        </div>
       </div>
       <div className="right-content">
         <h4>
-          I am <span>Abhishek Kumar Singh</span>
+          I am <span ref={infoo}></span>
         </h4>
         <p className="paragraph">
           I am Web Devloper. Strong in design and integration with intuitive
@@ -39,7 +52,8 @@ const ImageSectionStyled = styled.div`
   .left-content {
     width: 85%;
     img {
-      width: 95%;
+      width: 100%;
+
       object-fit: cover;
     }
   }

@@ -25,7 +25,7 @@ function HomePage() {
   useEffect(() => {
     init(info.current, {
       showCursor: false,
-      backSpeed:  50,
+      backSpeed:  100,
       startDelay: 500,
       backDelay:800,
       strings: ["A Web Developer", "A Problem Solver"],
@@ -44,7 +44,7 @@ function HomePage() {
         </div>
         <div className="typography">
           <h1>
-            Hi, I'm <span>Abhishek Singh</span>
+            Hi, I'm <span>Abhishek Kumar Singh</span>
           </h1>
           <span
             ref={info}
@@ -131,7 +131,7 @@ const HomePageStyled = styled.header`
       }
       .i-leetcode {
         &:hover {
-          border: 2px solid #5f4687;
+          border: 2px solid yollow;
           color: yellow;
         }
       }
