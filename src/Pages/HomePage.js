@@ -5,6 +5,7 @@ import Particle from "../Components/Particle";
 import { motion } from "framer-motion";
 import { init } from "ityped";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import { SiLeetcode } from "react-icons/si";
 const containerVariants = {
   hidden: {
     opacity: 0,
@@ -64,6 +65,12 @@ function HomePage() {
             rel="noopener noreferrer"
             >
               <GithubIcon />
+            </a>
+            <a href="https://www.leetcode.com/abhishek079" className="icon i-github"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              <SiLeetcode />
             </a>
             
           </div>
