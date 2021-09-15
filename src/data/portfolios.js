@@ -4,10 +4,20 @@ import p2 from '../img/portImages/2.png';
 import p3 from '../img/portImages/3.png';
 import p4 from '../img/portImages/4.png';
 import p5 from '../img/portImages/5.png';
+import p6 from '../img/portImages/6.png';
 
 const portfolios = [
     {
         id: 1,
+        category: 'Portfolio',
+        image: p6,
+        link1: 'https://github.com/singhabhishek6/Portfolio',
+        link2: 'https://abhishek001-portfolio.netlify.app/',
+        title: 'My Portfolio',
+        text: ''
+    },
+    {
+        id: 2,
         category: 'Booking Platform',
         image: css1,
         link1: 'https://github.com/singhabhishek6/Agoda-Clone',
@@ -16,7 +26,7 @@ const portfolios = [
         text: ''
     },
     {
-        id: 2,
+        id: 3,
         category: 'Web Application',
         image: p1,
         link1: 'https://github.com/singhabhishek6/IndeedClone-1',
@@ -25,7 +35,7 @@ const portfolios = [
         text: ''
     },
     {
-        id: 3,
+        id: 4,
         category: 'Ecommerce',
         image: p2,
         link1: 'https://github.com/singhabhishek6/TataCLiQ-Clone',

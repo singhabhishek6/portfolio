@@ -27,7 +27,7 @@ function Navigation({ setNavToggle }) {
         </li>
         <li onClick={() => setNavToggle(false)} className="nav-item">
           <NavLink to="/portfolios" activeClassName="active-class" exact>
-            Portfolios
+            Projects
           </NavLink>
         </li>
         <li onClick={() => setNavToggle(false)} className="nav-item">
