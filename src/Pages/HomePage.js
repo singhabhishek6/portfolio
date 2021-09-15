@@ -70,7 +70,7 @@ function HomePage() {
             target="_blank"
             rel="noopener noreferrer"
             >
-              <SiLeetcode />
+              <SiLeetcode style={{width:26.39,height:26.39}}/>
             </a>
             
           </div>
