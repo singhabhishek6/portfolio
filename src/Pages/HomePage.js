@@ -66,7 +66,7 @@ function HomePage() {
             >
               <GithubIcon />
             </a>
-            <a href="https://www.leetcode.com/abhishek079" className="icon i-github"
+            <a href="https://www.leetcode.com/abhishek079" className="icon i-leetcode"
             target="_blank"
             rel="noopener noreferrer"
             >
@@ -127,6 +127,12 @@ const HomePageStyled = styled.header`
         &:hover {
           border: 2px solid #5f4687;
           color: #5f4687;
+        }
+      }
+      .i-leetcode {
+        &:hover {
+          border: 2px solid #5f4687;
+          color: yellow;
         }
       }
     }
