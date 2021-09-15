@@ -10,7 +10,7 @@ const portfolios = [
         id: 1,
         category: 'Booking Platform',
         image: css1,
-        link1: 'https://github.com/Subham-Abhishek/Agoda-Clone',
+        link1: 'https://github.com/singhabhishek6/Agoda-Clone',
         link2: 'https://agoda.netlify.app/',
         title: 'Agoda Clone',
         text: ''
@@ -19,7 +19,7 @@ const portfolios = [
         id: 2,
         category: 'Web Application',
         image: p1,
-        link1: 'https://github.com/sheikhtausif/IndeedClone',
+        link1: 'https://github.com/singhabhishek6/IndeedClone-1',
         link2: 'https://indeed-clone.netlify.app',
         title: 'Indeed Clone',
         text: ''
@@ -28,7 +28,7 @@ const portfolios = [
         id: 3,
         category: 'Ecommerce',
         image: p2,
-        link1: 'https://github.com/Subham-Abhishek/TataCLiQ-Clone',
+        link1: 'https://github.com/singhabhishek6/TataCLiQ-Clone',
         link2: 'https://tatacliq.netlify.app/',
         title: 'TataCliq Clone',
         text: ''
