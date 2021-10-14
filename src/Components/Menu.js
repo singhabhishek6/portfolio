@@ -44,6 +44,7 @@ function Menu({ menuItem }) {
 }
 
 const MenuItemStyled = styled.div`
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
@@ -98,17 +99,20 @@ const MenuItemStyled = styled.div`
       }
 
       .portfolio-image {
+       
         &::before {
           content: "";
           position: absolute;
           left: 2%;
           top: 4%;
           height: 0;
+
           width: 0;
           transition: all 0.4s ease-in-out;
         }
       }
       .portfolio-image:hover {
+   
         ul {
           transform: translateY(0);
           transform: translate(-50%, -50%);
@@ -142,7 +146,7 @@ const MenuItemStyled = styled.div`
         &::before {
           height: calc(100% - 30%);
           width: calc(100% - 4%);
-          background-color: rgba(0, 0, 0, 0.8);
+          background-color: rgba(0, 0, 0, .7);
           opacity: 0.9;
           transform-origin: left;
 

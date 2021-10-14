@@ -11,9 +11,9 @@ const portfolios = [
         id: 1,
         category: 'Web Application',
         image: p6,
-        link1: 'https://github.com/singhabhishek6/Portfolio',
-        link2: 'https://abhishek001-portfolio.netlify.app/',
-        title: 'My Portfolio',
+        link1: 'https://github.com/singhabhishek6/Dev-Clone',
+        link2: 'https://dev-to-clone.netlify.app/',
+        title: 'Dev.to Clone',
         text: ''
     },
     {

@@ -20,7 +20,7 @@ function Resume() {
         <div className="resume-content">
           <ResumeItem
             year={"July, 2017 - Aug,2017"}
-            title={"NTPC, Nabinager"}
+            title={"NTPC, Nabinagar"}
             text={
               'Successfully completed the internship in this factory on the subject "Cooling Tower working" with period of 3 months.'
             }

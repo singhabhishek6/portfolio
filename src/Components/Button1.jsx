@@ -7,7 +7,7 @@ function Button({button}) {
             {
                 button.map((but, i) =>{
                     return <ButtonStyled key={i}>
-                        {but}
+                        {but.toUpperCase()}
                     </ButtonStyled>
                 })
             }

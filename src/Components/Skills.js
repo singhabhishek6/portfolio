@@ -7,8 +7,8 @@ import Button1 from './Button1';
 
 const front = ["HTML","CSS","JAVASCRIPT","REACT","REDUX","MATERIAL-UI"]
 const  back = ["NODEJS","EXPRESS","MONGODB","SOCKETIO"]
-const tech = ["VSCOE","POSTMAN","GITHUB"]
-const soft = ["TEAM PLAYER","Communication Skills","Work Ethic","Creativity","Flexibility"]
+const tech = ["VSCODE","POSTMAN","GITHUB"]
+const soft = ["TEAM PLAYER","Communication Skills","Work Ethics","Creativity","Flexibility"]
 function Skills() {
     return (
         <SkillsStyled>
