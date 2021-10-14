@@ -24,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
 }
 .dark-theme{
     --primary-color: #007bff;
-    --primary-color-light: #057FFF;
+    --primary-color-light: rgba(5,127,255,.7);
     --secondary-color: #6c757d;
     --background-dark-color: #10121A;
     --background-dark-grey: #191D2B;
@@ -52,9 +52,9 @@ const GlobalStyle = createGlobalStyle`
     --background-light-color-2: rgba(250,91,15,0.2) !important;
 }
 .yellow-theme{
-    --primary-color: #ffb400 !important;
-    --primary-color-light: rgba(255,180,0,0.8) !important;
-    --background-light-color-2: rgba(255,180,0,0.2) !important;
+    --primary-color: rgb(193,148,52) !important;
+    --primary-color-light: rgba(193,148,52,0.8) !important;
+    --background-light-color-2: rgba(193,148,52,0.2) !important;
 }
 *{
     margin: 0;
@@ -184,9 +184,10 @@ h6{
 
   //Nav Toggler
   .ham-burger-menu{
-      position: absolute;
-      right: 5%;
-      top: 3%; 
+      position: sticky;
+      right: 3%;
+    text-align: right;
+      /* top: 3%;  */
       display: none;
       z-index: 15;
       svg{

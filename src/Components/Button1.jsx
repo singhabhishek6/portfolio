@@ -1,8 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function Button({button}) {
+function Button({button,title}) {
     return (
+        <>
+            <div className="skil">
+            <h3 style={{fontSize:25}}>{title}</h3>
         <ButtonsStyled>
             {
                 button.map((but, i) =>{
@@ -12,11 +15,13 @@ function Button({button}) {
                 })
             }
         </ButtonsStyled>
+            </div>
+        </>
     )
 }
 
 const ButtonStyled = styled.button`
-    outline: none;
+    outline: 2px solid var(--primary-color) ;
     border: none;
     border-radius: 10px;
     background-color: var(--background-light-color-2);

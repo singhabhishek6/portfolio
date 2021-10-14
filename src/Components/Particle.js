@@ -1,8 +1,7 @@
 import Particles from 'react-particles-js';
 
-import React from 'react';
+function Particle({theme}) {
 
-function Particle() {
   return (
     <>
       <Particles width="100%" height="100vh" 
@@ -16,7 +15,7 @@ function Particle() {
                     }
                   },
                   color:{
-                    value: '#636e72'
+                    value: "#fff"
                   },
                   shape:{
                     type: 'circle',
@@ -34,7 +33,7 @@ function Particle() {
                     width: 1,
                     shadow: {
                       enable: true,
-                      color: "#e74c3c",
+                      color: "#007bff",
                       blur: 5
                     }
                   },
@@ -64,6 +63,7 @@ function Particle() {
                   }
                 }
               }}
+              style={{backGroundColor:"red"}}
       />
     </>
   )

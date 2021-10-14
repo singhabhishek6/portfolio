@@ -16,10 +16,11 @@ function Skills() {
                 <Title title={'My Skills'} span={'my skills'} />
                 <InnerLayout>
                     <div className="skills">
-                      <Button1 button={front}/>
-                      <Button1 button={back}/>
-                      <Button1 button={tech}/>
-                      <Button1 button={soft}/>
+                       
+                      <Button1 button={front} title = "FRONT-END"/>
+                      <Button1 button={back} title = "BACK-END"/>
+                      <Button1 button={tech} title = "TOOLS"/>
+                      <Button1 button={soft} title = "SOFT-SKILLS"/>
                     </div>
                 </InnerLayout>
         </SkillsStyled>

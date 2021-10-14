@@ -58,7 +58,10 @@ const MenuItemStyled = styled.div`
     .portfolio-content {
       display: block;
       position: relative;
+      text-align: center;
+      border-radius: 10px;
       overflow: hidden;
+      border: 2px solid  var(--primary-color);;
       h6 {
         font-size: 1.5rem;
       }

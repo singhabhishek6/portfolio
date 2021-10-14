@@ -13,7 +13,7 @@ function ServicesSection() {
             image={
               <svg
                 viewBox="0 0 137.144 137.144"
-                enable-background="new 0 0 137.144 137.144"
+                enableBackground="new 0 0 137.144 137.144"
               >
                 <g>
                   <g>

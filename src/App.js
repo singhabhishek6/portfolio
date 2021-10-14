@@ -1,5 +1,5 @@
 
-import { useRef, useState } from "react";
+import {  useState } from "react";
 import { useEffect } from "react";
 import Sidebar from "./Components/Sidebar";
 import styled from 'styled-components';
@@ -22,7 +22,6 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [loadi, setLoadi] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
-  const preload = useRef()
   const location = useLocation()
   useEffect(()=>{
     document.documentElement.className = theme;
@@ -62,7 +61,7 @@ function App() {
   return (
     <>
    {loading && <div  className={`containerr ${loadi&&"hide"}`}>
-      <div class="loader">
+      <div className="loader">
         <span></span>
       </div>
     </div>
@@ -85,7 +84,7 @@ function App() {
     <div className="App">
         <Sidebar navToggle={navToggle} setNavToggle={setNavToggle}/>
 
-        <div className="theme">
+        <div className="theme" id="h">
           <div className="light-dark-mode">
               <div className="left-content">
                 <Brightness4Icon />
@@ -119,7 +118,7 @@ function App() {
           <AnimatePresence>
           <Switching location={location} key={location.key}>
             <Route path="/" exact>
-              <HomePage />
+              <HomePage theme={theme}/>
             </Route>
             <Route exact path="/about">
               <AboutPage />

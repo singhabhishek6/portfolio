@@ -19,7 +19,7 @@ const containerVariants = {
     transition: { ease: "easeInOut" },
   },
 };
-function HomePage() {
+function HomePage({theme}) {
   const info = useRef();
 
   useEffect(() => {
@@ -40,7 +40,7 @@ function HomePage() {
     >
       <HomePageStyled>
         <div className="particle-con">
-          <Particle />
+          <Particle theme={theme} />
         </div>
         <div className="typography">
           <h1>
