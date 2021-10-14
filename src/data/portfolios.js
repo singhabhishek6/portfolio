@@ -9,7 +9,7 @@ import p6 from '../img/portImages/6.png';
 const portfolios = [
     {
         id: 1,
-        category: 'Portfolio',
+        category: 'Web Application',
         image: p6,
         link1: 'https://github.com/singhabhishek6/Portfolio',
         link2: 'https://abhishek001-portfolio.netlify.app/',
@@ -64,7 +64,7 @@ const portfolios = [
     },
     {
         id: 7,
-        category: 'Fun',
+        category: 'Game',
         image:p5,
         link1: 'https://github.com/singhabhishek6/hexagon',
         link2: 'https://hexagon-effect.netlify.app/',

@@ -1,12 +1,17 @@
-import React from 'react'
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-function Title({title, span}) {
-    return (
-        <TitleStyled>
-            <h2>{title} <b><span>{span}</span></b></h2>
-        </TitleStyled>
-    )
+function Title({ title, span }) {
+  return (
+    <TitleStyled>
+      <h2>
+        {title}{" "}
+        <b>
+          <span>{span}</span>
+        </b>
+      </h2>
+    </TitleStyled>
+  );
 }
 
 const TitleStyled = styled.div`
@@ -39,10 +44,25 @@ const TitleStyled = styled.div`
             position: absolute;
             bottom: 0;
             width: 3.5rem;
-            height: .33rem;
+            height: 0.33rem;
             background-color: var(--primary-color);
             border-radius: 15px;
             left: 0;
+            animation: ani 2.7s infinite;
+        }
+        
+        
+        @keyframes ani {
+          0% {
+            left: 0;
+          }
+          50% {
+            left: 70px;
+          }
+          100% {
+            left: 0;
+          }
+        }
         }
         span{
             font-weight: 900;

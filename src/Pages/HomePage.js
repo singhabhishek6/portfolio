@@ -54,7 +54,7 @@ function HomePage() {
           It's Nice To Meet You. I Design And Code Beautifully And I Love What I Do.
           </p>
           <div className="icons">
-            <a href="https://www.linkedin.com/in/abhishek-kumar-singh-25b780119/" className="icon i-facebook"
+            <a href="https://www.linkedin.com/in/abhishek-kumar-singh-25b780119/" className="icon i-linked"
             target="_blank"
             rel="noopener noreferrer"
             >
@@ -92,7 +92,6 @@ const HomePageStyled = styled.header`
     transform: translate(-50%, -50%);
     text-align: center;
     width: 80%;
-
     .icons {
       display: flex;
       justify-content: center;
@@ -117,10 +116,10 @@ const HomePageStyled = styled.header`
         }
       }
 
-      .i-youtube {
+      .i-linked {
         &:hover {
-          border: 2px solid red;
-          color: red;
+          border: 2px solid rgb(10,102,194);
+          color: rgb(10,102,194);
         }
       }
       .i-github {
@@ -131,8 +130,8 @@ const HomePageStyled = styled.header`
       }
       .i-leetcode {
         &:hover {
-          border: 2px solid yollow;
-          color: yellow;
+          border: 2px solid rgb(250,157,22);
+          color: rgb(250,157,22);
         }
       }
     }

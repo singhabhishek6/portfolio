@@ -2,8 +2,13 @@ import React from 'react'
 import styled from 'styled-components';
 import {InnerLayout} from '../styles/Layouts';
 import Title from '../Components/Title';
-import ProgressBar from './ProgressBar';
+import Button1 from './Button1';
 
+
+const front = ["HTML","CSS","JAVASCRIPT","REACT","REDUX","MATERIAL-UI"]
+const  back = ["NODEJS","EXPRESS","MONGODB","SOCKETIO"]
+const tech = ["VSCOE","POSTMAN","GITHUB"]
+const soft = ["TEAM PLAYER","Communication Skills","Work Ethic","Creativity","Flexibility"]
 function Skills() {
     return (
         <SkillsStyled>
@@ -11,46 +16,10 @@ function Skills() {
                 <Title title={'My Skills'} span={'my skills'} />
                 <InnerLayout>
                     <div className="skills">
-                        <ProgressBar 
-                            title={'HTML5'}
-                            width={'70'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
-                            title={'CSS3'}
-                            width={'80'}
-                            text={'80%'}
-                        />
-                        <ProgressBar 
-                            title={'JAVASCRIPT'}
-                            width={'80'}
-                            text={'80%'}
-                        />
-                        <ProgressBar 
-                            title={'REACT'}
-                            width={'70'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
-                            title={'REDUX'}
-                            width={'80'}
-                            text={'80%'}
-                        />
-                        <ProgressBar 
-                            title={'EXPRESS'}
-                            width={'70'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
-                            title={'MONGODB'}
-                            width={'70'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
-                            title={'POSTMAN'}
-                            width={'80'}
-                            text={'80%'}
-                        />
+                      <Button1 button={front}/>
+                      <Button1 button={back}/>
+                      <Button1 button={tech}/>
+                      <Button1 button={soft}/>
                     </div>
                 </InnerLayout>
         </SkillsStyled>
@@ -62,7 +31,7 @@ const SkillsStyled = styled.section`
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 2rem;
-        grid-column-gap: 3rem;
+        grid-column-gap: 1rem;
         @media screen and (max-width: 700px){
             grid-template-columns: repeat(1, 1fr);
         }

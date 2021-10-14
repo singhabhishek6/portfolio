@@ -21,11 +21,15 @@ const ServiceCardStyled = styled.div`
   border-bottom: 1px solid var(--border-color);
   transition: all 0.4s ease-in-out;
   &:hover {
+    z-index:100;
     border-top: 8px solid var(--primary-color);
-    transform: translateY(3px);
+    transform: scale(1.1);
+    border-radius: 0px;
+     box-shadow:  00px 2px 2px var(--primary-color);
   }
   .container {
     padding: 1.2rem;
+    height:350px;
     h4 {
       color: var(--white-color);
       font-size: 1.6rem;
