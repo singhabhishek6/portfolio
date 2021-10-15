@@ -20,7 +20,6 @@ function App() {
   const [theme, setTheme] = useState('dark-theme');
   const [checked, setChecked] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [loadi, setLoadi] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
   const location = useLocation()
   useEffect(()=>{
@@ -52,7 +51,6 @@ function App() {
   }
   window.addEventListener("load",()=>{
     setTimeout(() => {
-     setLoadi(true)
      setTimeout(() => {
       setLoading(false)
      }, 1500);
@@ -60,11 +58,60 @@ function App() {
   })
   return (
     <>
-   {loading && <div  className={`containerr ${loadi&&"hide"}`}>
-      <div className="loader">
-        <span></span>
-      </div>
-    </div>
+   {loading && <><div className="hold">
+    <div class="hexagon" aria-label="Animated hexagonal ripples">
+	<div class="hexagon__group">
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+	</div>
+	<div class="hexagon__group">
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+	</div>
+	<div class="hexagon__group">
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+	</div>
+	<div class="hexagon__group">
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+	</div>
+	<div class="hexagon__group">
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+	</div>
+	<div class="hexagon__group">
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+		<div class="hexagon__sector"></div>
+	</div>
+</div>
+<p aria-label="Loading">Welcome To My Portfolio..</p>
+</div>
+   </>
    }
    {loading?null:<> <div className="colors">
       <span onClick={()=>{
