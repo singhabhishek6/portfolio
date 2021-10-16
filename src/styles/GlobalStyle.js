@@ -140,7 +140,7 @@ h1{
     background-color: #fa5b0f;
 }
 .colors span:nth-child(3){
-    background-color:  #ffb400;
+    background-color:  rgb(193,148,52);
 }
 .colors span:nth-child(4){
     background-color: rgb(0,123,255);

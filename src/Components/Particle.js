@@ -15,7 +15,7 @@ function Particle({theme}) {
                     }
                   },
                   color:{
-                    value: "#fff"
+                    value: "#CCCCCC"
                   },
                   shape:{
                     type: 'circle',

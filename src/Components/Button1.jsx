@@ -21,8 +21,9 @@ function Button({button,title}) {
 }
 
 const ButtonStyled = styled.button`
-    outline: 2px solid var(--primary-color) ;
+
     border: none;
+    box-shadow: 0px 0px 0px 2px var(--primary-color) ;
     border-radius: 10px;
     background-color: var(--background-light-color-2);
     padding: .4rem 1rem;
