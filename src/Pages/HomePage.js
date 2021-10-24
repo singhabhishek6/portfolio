@@ -66,12 +66,7 @@ function HomePage({theme}) {
             >
               <GithubIcon />
             </a>
-            <a href="https://www.leetcode.com/abhishek079" className="icon i-leetcode"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-              <SiLeetcode style={{width:26.39,height:26.39}}/>
-            </a>
+           
             
           </div>
         </div>
