@@ -5,10 +5,20 @@ import p3 from '../img/portImages/3.png';
 import p4 from '../img/portImages/4.png';
 import p5 from '../img/portImages/5.png';
 import p6 from '../img/portImages/6.png';
+import p7 from '../img/portImages/7.png';
 
 const portfolios = [
     {
         id: 1,
+        category: 'Web Application',
+        image: p7,
+        link1: 'https://github.com/singhabhishek6/contio',
+        link2: 'https://contio.netlify.app/',
+        title: 'Cantio',
+        text: ''
+    },
+    {
+        id: 2,
         category: 'Web Application',
         image: p6,
         link1: 'https://github.com/singhabhishek6/Dev-Clone',
@@ -17,7 +27,7 @@ const portfolios = [
         text: ''
     },
     {
-        id: 2,
+        id: 3,
         category: 'Booking Platform',
         image: css1,
         link1: 'https://github.com/singhabhishek6/Agoda-Clone',
@@ -26,7 +36,7 @@ const portfolios = [
         text: ''
     },
     {
-        id: 3,
+        id: 4,
         category: 'Web Application',
         image: p1,
         link1: 'https://github.com/singhabhishek6/IndeedClone-1',
@@ -35,7 +45,7 @@ const portfolios = [
         text: ''
     },
     {
-        id: 4,
+        id: 5,
         category: 'Ecommerce',
         image: p2,
         link1: 'https://github.com/singhabhishek6/TataCLiQ-Clone',
@@ -45,7 +55,7 @@ const portfolios = [
     },
 
     {
-        id: 5,
+        id: 6,
         category: 'Web Application',
         image: p3,
         link1: 'https://github.com/singhabhishek6/singhabhishek6.github.io',
@@ -54,7 +64,7 @@ const portfolios = [
         text: ''
     },
     {
-        id: 6,
+        id: 7,
         category: 'Game',
         image: p4,
         link1: 'https://github.com/singhabhishek6/poject',
@@ -63,7 +73,7 @@ const portfolios = [
         text: ''
     },
     {
-        id: 7,
+        id: 8,
         category: 'Game',
         image:p5,
         link1: 'https://github.com/singhabhishek6/hexagon',
