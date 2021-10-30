@@ -44,8 +44,9 @@ function HomePage({theme}) {
         </div>
         <div className="typography">
           <h1>
-            Hi, I'm <span>Abhishek Kumar Singh</span>
+            Hi, I'm 
           </h1>
+          <h1 style={{fontSize:70,color:"var(--primary-color)"}} >Abhishek Kumar Singh</h1>
           <span
             ref={info}
             style={{ fontSize: 35, display: "block", minHeight: 50 }}
