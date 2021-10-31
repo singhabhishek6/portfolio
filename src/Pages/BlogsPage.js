@@ -32,20 +32,21 @@ function BlogsPage() {
           <InnerLayout className={"blog"}>
             {blogs.map((blog) => {
               return (
+                <a
+                href={blog.src}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div key={blog.id} className={"blog-item"}>
                   <div className="image">
                     <img src={blog.image} alt="" />
                   </div>
                   <div className="title">
-                    <a
-                      href="https://agodaclone.hashnode.dev/building-clone-of-the-agoda-website"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                   
                       {blog.title}
-                    </a>
                   </div>
                 </div>
+                    </a>
               );
             })}
           </InnerLayout>
@@ -70,8 +71,9 @@ const BlogsStyled = styled.div`
     }
     .image {
       width: 100%;
+      height: 250px;
       overflow: hidden;
-      padding-bottom: 0.5rem;
+      /* padding-bottom: 0.5rem; */
       img {
         width: 100%;
         height: 90%;
@@ -86,13 +88,13 @@ const BlogsStyled = styled.div`
 
     .title {
       a {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         padding: 2rem 0;
         color: var(--white-color);
         cursor: pointer;
         transition: all 0.4s ease-in-out;
         &:hover {
-          color: var(--primary-color);
+          color: var(--primary-color) !important;
         }
       }
     }
