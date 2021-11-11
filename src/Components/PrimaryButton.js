@@ -6,6 +6,7 @@ function PrimaryButton({title}) {
         <PrimaryButtonStyled href="/Abhishek.pdf" download>
             {title}
         </PrimaryButtonStyled>
+              
     )
 }
 
@@ -14,6 +15,7 @@ const PrimaryButtonStyled = styled.a`
     padding: .8rem 2.5rem;
     color: white;
     cursor: pointer;
+    
     display: inline-block;
     font-size: inherit;
     text-transform: uppercase;
@@ -34,4 +36,6 @@ const PrimaryButtonStyled = styled.a`
         background-color: var(--white-color);
     }
 `;
+
+
 export default PrimaryButton;
