@@ -1,7 +1,7 @@
 import { init } from "ityped";
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
-import resume from "../img/resume.jpg";
+import resume from "../img/avtar1.jpg";
 import PrimaryButton from "./PrimaryButton";
 import "../App.css"
 function ImageSection() {
